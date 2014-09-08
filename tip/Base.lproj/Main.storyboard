@@ -84,7 +84,7 @@
                     <navigationItem key="navigationItem" title="Tip" id="3XL-cn-CSt">
                         <barButtonItem key="rightBarButtonItem" title="Settings" id="1ra-vp-BeH">
                             <connections>
-                                <segue destination="yiu-5i-v4W" kind="modal" identifier="settingsSegue" id="A2F-rN-w0W"/>
+                                <segue destination="yiu-5i-v4W" kind="modal" identifier="settingsSegue" modalTransitionStyle="flipHorizontal" id="A2F-rN-w0W"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

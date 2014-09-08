@@ -22,7 +22,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         tipLabel.text = "$0.00"
         totalLabel.text = "$0.00"
-        
+    }
+    
+    override func viewWillAppear(animated: Bool) {
         //Set tip control to user default
         let defaults = NSUserDefaults.standardUserDefaults()
         tipControl.selectedSegmentIndex = defaults.integerForKey("defaultTipIndex")
