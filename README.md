@@ -1,5 +1,7 @@
 # Homework 1 - Tip Calculator
 
+**Hours taken**: 4
+
 **Completed**:
 - Display settings view
 - Load and save user defaults
